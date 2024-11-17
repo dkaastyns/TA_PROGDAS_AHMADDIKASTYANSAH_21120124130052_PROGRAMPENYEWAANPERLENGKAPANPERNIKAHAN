@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e1d1ee, hsl(200, 58%, 89%)); 
+}
+
+header {
+    background-color: #CB9DF0; 
+    padding: 20px; 
+    text-align: center; 
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px; 
+}
+
+h2 {
+    color: white;
+    margin: 0;
+}
+
+form, table {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #CB9DF0; 
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #CB9DF0; 
+    color: white; 
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px auto; 
+    display: block; 
+}
+
+button:hover, button:active {
+    background: #CB9DF0; 
+    color: white;
+}
+
+.button-container {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.button {
+    margin: 0 10px;
+}

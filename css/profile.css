@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e1cbf3, hsl(198, 67%, 84%));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    background: linear-gradient(to right, #d0a7f1, hsl(198, 71%, 63%));
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(220, 162, 249, 0.9) !important;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 50%;
+    max-width: 850px;
+    text-align: center;
+}
+
+.profile-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.logoutBtn {
+    background: linear-gradient(to right, #d0a7f1, hsl(198, 71%, 63%));
+}
+
+.logoutBtn:hover {
+    background: #9b41f4;
+    transform: scale(1.05);
+}
+
+.profileBtn {
+    background: linear-gradient(to right, #d0a7f1, #8bbaf4);
+}
+
+.profileBtn:hover {
+    background: #aa5beb;
+    transform: scale(1.05);
+}

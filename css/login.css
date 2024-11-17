@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e1cbf3, hsl(198, 67%, 84%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 850px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.6s ease-in-out;
+}
+
+.container.register-mode {
+    transform: translateX(-50%);
+}
+
+.left, .right {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    background: linear-gradient(to right, #d0a7f1, hsl(198, 71%, 63%));
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #fff;
+}
+
+.left h2, .right h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.left p, .right p {
+    margin-bottom: 20px;
+}
+
+.left button, .right button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.left button:hover, .left button:active {
+    background: #9b41f4; 
+}
+
+.right button {
+    background:linear-gradient(to right, #d0a7f1, hsl(198, 71%, 63%));
+    border: none;
+    color: #fff;
+    padding: 10px 90px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.right .input-group {
+    position: relative;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.right .input-group input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none; 
+}
+
+
+.right .input-group input:focus {
+    outline: 3px solid #9b41f4; 
+}
+
+
+.right .input-group i {
+    position: absolute;
+    right: -20px; 
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.right a {
+    color: #aaa;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.right button:hover, .right button:active {
+    background: #aa5beb; 
+}
