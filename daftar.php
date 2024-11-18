@@ -13,8 +13,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $gender = $_POST['gender'];
     $umur = $_POST['umur'];
 
-    if ($umur < 15) {
-        $error = "Umur harus minimal 15 tahun.";
+    if ($umur < 19) {
+        $error = "Umur harus minimal 19 tahun.";
     } else {
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
@@ -105,8 +105,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             return false;
         }
 
-        if (umur < 15) {
-            alert("Umur harus minimal 15 tahun.");
+        if (umur < 19) {
+            alert("Umur harus minimal 19 tahun.");
             return false;
         }
 
