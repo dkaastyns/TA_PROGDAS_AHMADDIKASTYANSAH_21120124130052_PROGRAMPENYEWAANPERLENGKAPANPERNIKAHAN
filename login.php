@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
                 <div class="verified">
                     <input type="checkbox" id="verified" name="verified" required>
-                    <label for="verified">Ceklis dulu biar bisa masuk >.<</label>
+                    <label for="verified">Verifikasi dulu</label>
                 </div>
                 <button type="submit" id="loginBtn" >Login</button>
             </form>
